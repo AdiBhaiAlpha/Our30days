@@ -42,18 +42,18 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g5',
-    title: 'Endless Whispers',
+    title: 'Obsession',
     description: 'Losing track of time listening to your laughter echo in my ears.',
-    date: 'June 23, 2026',
-    imageUrl: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=800&auto=format&fit=crop',
+    date: 'June, 2026',
+    imageUrl: 'https://i.ibb.co.com/C3RStLB2/IMG-20260611-WA0003.jpg',
     rotate: -5,
   },
   {
     id: 'g6',
-    rotate: 'Infinite Promises',
-    description: 'A beautiful month of pure devotion, looking forward to forever.',
+    rotate: 'Vibe Matching',
+    description: 'A beautiful month of pure love, looking forward to forever.',
     date: 'June 29, 2026',
-    imageUrl: 'https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?q=80&w=800&auto=format&fit=crop',
+    imageUrl: 'https://i.ibb.co.com/9kYKRZNC/IMG-20260603-WA0006.jpg',
     rotate: 2,
   },
 ];
@@ -62,12 +62,7 @@ export default function MemoryGallery({ onGalleryComplete }: MemoryGalleryProps)
   const [activeItem, setActiveItem] = useState<GalleryItem | null>(null);
 
   const handleCardClick = (item: GalleryItem) => {
-    audio.playClickSound();
-    setActiveItem(item);
-  };
-
-  const handleClose = () => {
-    audio.playClickSound();
+    audio.pla   audio.playClickSound();
     setActiveItem(null);
   };
 
