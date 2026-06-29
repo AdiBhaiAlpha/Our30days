@@ -1,0 +1,6 @@
+{
+  "name": "Our First Month",
+  "description": "An interactive, cinematic romantic anniversary experience celebrating Chitron and Sayantika's first month together.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
