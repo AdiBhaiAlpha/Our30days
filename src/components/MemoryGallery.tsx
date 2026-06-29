@@ -62,7 +62,7 @@ export default function MemoryGallery({ onGalleryComplete }: MemoryGalleryProps)
   const [activeItem, setActiveItem] = useState<GalleryItem | null>(null);
 
   const handleCardClick = (item: GalleryItem) => {
-    audio.pla   audio.playClickSound();
+    audio.playClickSound();
     setActiveItem(null);
   };
 
